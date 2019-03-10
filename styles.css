@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	padding: 10px 0;
+	font-family: 'Trebuchetui MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	color: #000305;
+	background-color: #F5F4EF;
+}
+
+a {
+	color: #C74350;
+	transition: all .4s linear;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #fff;
+	background-color: #C74350;
+	text-decoration: none;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.section {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+header a {
+	display: inline-block;
+	text-decoration: none;
+	color: #000305;
+}
+
+header a:hover,
+header a:focus,
+header a:active {
+	color: #C74350;
+	background-color: transparent;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-size: 50px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+main h2,
+main h3,
+main h4 {
+	font-weight: normal;
+	margin: 0;
+}
+
+footer h4, 
+footer p {
+	margin: 0;
+}
+
+footer h4 {
+	font-size: 18px;
+}
+
+footer h4 a {
+	text-decoration: none;
+}
+
+main h2 {
+	font-size: 24px;
+	color: #C74350;
+}
+
+main h3,
+aside h3 {
+	font-size: 20px;
+}
+
+article {
+	margin-top: 10px;
+}
+
+article h3 a {
+	text-decoration: none;	
+}
+
+.featured h3 a {
+	color: #000305;
+	text-decoration: none;
+}
+
+.featured h3 a:hover, 
+.featured h3 a:focus, 
+.featured h3 a:active {
+	color: #fff;
+}
+
+/* .section article:not(:last-child) {
+	border-bottom: 1px solid #eee;
+} */
+
+.section article + article {
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+
+aside h3 {
+	color: #C74350;
+}
+
+aside {
+	display: inline-block;
+	padding-right: 30px;
+}
+
+aside ul {
+	padding: 0;
+	list-style: none;
+}
+
+aside li a {
+	border-bottom: 1px solid #F4E3E3;
+	padding: 5px 8px;
+	display: block;
+	text-decoration: none;
+	color: #000305;
+}
+
+aside li {
+	border-bottom: 1px solid #fff;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-reverse {
+	flex-direction: row-reverse;
+}
+
+.flex-item {
+	width: 30%;
+}
+
+.flex-item--large {
+	width: 70%;
+}
+
+.text-right {
+	text-align: right;
+}
