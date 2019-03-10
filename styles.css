@@ -10,7 +10,7 @@ body {
 
 a {
 	color: #C74350;
-	transition: all .4s linear;
+	/* transition: all .4s linear; */
 }
 
 a:hover,
@@ -52,7 +52,7 @@ header a:active {
 
 h1 {
 	margin-bottom: 0;
-	font-size: 50px;
+	font-size: 150px;
 }
 
 p {
